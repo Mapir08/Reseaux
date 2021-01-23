@@ -1,0 +1,27 @@
+.chap {
+    margin: 0 0 15px 0;
+    &__titre {
+        font: small-caps bold 1.5em sans-serif;
+        margin: 5px 10px 20px 10px;
+        border-bottom: 1px solid;
+        & i {
+            color: darkblue;
+        }
+    }
+    &__contenu {
+        &__bin {
+            text-align: center;
+        }
+        &__title {
+            font-weight: bold;
+        }
+        &__sstitle {
+            font-style: italic;
+            color: grey;
+        }
+        &__input input {
+            text-align: center;
+            width: 30px;
+        }
+    }
+}

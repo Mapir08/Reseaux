@@ -1,0 +1,19 @@
+body {
+    width: 900px;
+    margin: auto;
+    & p{
+        margin: 0;
+    }
+}
+#header {
+    text-align: center;
+    font: 3.5em "Times New Roman";
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+#footer {
+    height: 20px;
+    text-align: right;
+    color:lightgrey;
+    font-style: italic;
+}
