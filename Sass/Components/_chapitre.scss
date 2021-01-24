@@ -9,52 +9,22 @@
         }
     }
     &__contenu {
-        & form {
-            display: flex;
-            align-items: center;
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        &__output {
+            margin-left: 50px;
+            & b{
+                color: $color3;
+                font-size: larger;
+                border: 1px solid $color3;
+                background-color: $color1;
+                border-radius: 6px;
+                padding: 5px 15px 5px 15px;
+            }
         }
-        &__bin {
+        &__input {
             text-align: center;
-            margin-left: 50px;
-            &-title {
-                font-weight: bold;
-            }
-            &-sstitle {
-                font-style: italic;
-                color: $color2;
-            }
-            &-output {
-                margin-left: 50px;
-                & b{
-                    color: $color3;
-                    font-size: larger;
-                    border: 1px solid $color3;
-                    background-color: $color1;
-                    border-radius: 6px;
-                    padding: 5px 15px 5px 15px;
-                }
-            }
-            &-input input {
-                text-align: center;
-                width: 30px;
-            }
-        }
-        &__dec {
-            margin-left: 50px;
-            &-output {
-                margin-left: 50px;
-                & b{
-                    color: $color3;
-                    font-size: larger;
-                    border: 1px solid $color3;
-                    background-color: $color1;
-                    border-radius: 6px;
-                    padding: 5px 15px 5px 15px;
-                }
-            }& input {
-                text-align: center;
-                width: 40px;
-            }
         }
     }
 }

@@ -16,65 +16,71 @@
                 <div class="chap__titre">
                     <p>Binaire <i>vers</i> Décimale</p>
                 </div>
-                <div class="chap__contenu">
-                    <form id="chap__contenu__bin">
-                        <table class="chap__contenu__bin">
-                            <tr class="chap__contenu__bin-title">
-                                <td>2<sup>7</sup></td>
-                                <td>2<sup>6</sup></td>
-                                <td>2<sup>5</sup></td>
-                                <td>2<sup>4</sup></td>
-                                <td></td>
-                                <td>2<sup>3</sup></td>
-                                <td>2<sup>2</sup></td>
-                                <td>2<sup>1</sup></td>
-                                <td>2<sup>0</sup></td>
-                            </tr>
-                            <tr class="chap__contenu__bin-sstitle">
-                                <td>128</td>
-                                <td>64</td>
-                                <td>32</td>
-                                <td>16</td>
-                                <td></td>
-                                <td>8</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>1</td>
-                            </tr>
-                            <tr class="chap__contenu__bin-input">
-                                <td><input type="text" minlenght=0 maxlength=1 id="2b7"/></td>
-                                <td><input type="text" minlenght=0 maxlength=1 id="2b6"/></td>
-                                <td><input type="text" minlenght=0 maxlength=1 id="2b5"/></td>
-                                <td><input type="text" minlenght=0 maxlength=1 id="2b4"/></td>
-                                <td></td>
-                                <td><input type="text" minlenght=0 maxlength=1 id="2b3"/></td>
-                                <td><input type="text" minlenght=0 maxlength=1 id="2b2"/></td>
-                                <td><input type="text" minlenght=0 maxlength=1 id="2b1"/></td>
-                                <td><input type="text" minlenght=0 maxlength=1 id="2b0"/></td>
-                            </tr>
-                        </table>
-                        <div class="chap__contenu__bin-output">En Décimale ca donne : <b>0</b></div>
-                    </form>
-                </div>
+                <form  class="chap__contenu bin__table" id="chap__contenu__bin">
+                    <table>
+                        <tr class="bin__table-title">
+                            <td>2<sup>7</sup></td>
+                            <td>2<sup>6</sup></td>
+                            <td>2<sup>5</sup></td>
+                            <td>2<sup>4</sup></td>
+                            <td></td>
+                            <td>2<sup>3</sup></td>
+                            <td>2<sup>2</sup></td>
+                            <td>2<sup>1</sup></td>
+                            <td>2<sup>0</sup></td>
+                        </tr>
+                        <tr class="bin__table-sstitle">
+                            <td>128</td>
+                            <td>64</td>
+                            <td>32</td>
+                            <td>16</td>
+                            <td></td>
+                            <td>8</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="bin__table-input">
+                            <td><input type="text" minlenght=0 maxlength=1 id="2b7"/></td>
+                            <td><input type="text" minlenght=0 maxlength=1 id="2b6"/></td>
+                            <td><input type="text" minlenght=0 maxlength=1 id="2b5"/></td>
+                            <td><input type="text" minlenght=0 maxlength=1 id="2b4"/></td>
+                            <td></td>
+                            <td><input type="text" minlenght=0 maxlength=1 id="2b3"/></td>
+                            <td><input type="text" minlenght=0 maxlength=1 id="2b2"/></td>
+                            <td><input type="text" minlenght=0 maxlength=1 id="2b1"/></td>
+                            <td><input type="text" minlenght=0 maxlength=1 id="2b0"/></td>
+                        </tr>
+                    </table>
+                    <div class="chap__contenu__output">En Décimale ca donne : <b>0</b></div>
+                </form>
             </div>
             <div class="chap">
                 <div class="chap__titre">
                     <p>Décimale <i>vers</i> Binaire</p>
                 </div>
-                <div class="chap__contenu">
-                    <form id="chap__contenu__dec" class="chap__contenu__dec">
-                        <input type="text" minlenght=0 maxlength=255 id="decimale"/>
-                        <div class="chap__contenu__dec-output">En Binaire ca donne : <b>0000 0000</b></div>
-                    </form>
-                </div>
+                <form class="chap__contenu" id="chap__contenu__dec" >
+                    <input type="text" minlenght=0 maxlength=255 id="decimale"/>
+                    <div class="chap__contenu__output">En Binaire ca donne : <b>0000 0000</b></div>
+                </form>
             </div>
             <div class="chap">
                 <div class="chap__titre">
-                    <p>IP <i>et</i> Masque de sous Réseaux</p>
+                    <p>IP<i>et</i> Masque de sous réseaux</p>
                 </div>
-                <div class="chap__contenu">
-
+                <form class="chap__contenu" id="chap__contenu__*" >
+                    <input type="text" minlenght=0 maxlength=255 id="/"/>
+                    <div class="chap__contenu__output">Ca donne : <b>resultat</b></div>
+                </form>
+            </div>
+            <div class="chap">
+                <div class="chap__titre">
+                    <p>Titre <i>et</i> Titre</p>
                 </div>
+                <form class="chap__contenu" id="chap__contenu__*" >
+                    <input type="text" minlenght=0 maxlength=255 id="/"/>
+                    <div class="chap__contenu__output">Ca donne : <b>resultat</b></div>
+                </form>
             </div>
     	</div>
         <div id="footer">

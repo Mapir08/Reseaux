@@ -1,7 +1,7 @@
-const Bformulaire = document.getElementById("chap__contenu__bin")
-const Bresultat = document.querySelector(".chap__contenu__bin-output > b");
-const Dformulaire = document.getElementById("chap__contenu__dec")
-const Dresultat = document.querySelector(".chap__contenu__dec-output > b");
+const Bformulaire = document.getElementById("chap__contenu__bin");
+const Bresultat = document.querySelector("#chap__contenu__bin .chap__contenu__output > b");
+const Dformulaire = document.getElementById("chap__contenu__dec");
+const Dresultat = document.querySelector("#chap__contenu__dec .chap__contenu__output > b");
 let resultat;
 
 function puiss(puiss){

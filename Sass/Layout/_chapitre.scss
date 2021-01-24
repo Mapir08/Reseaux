@@ -1,0 +1,24 @@
+
+.bin {
+    &__table { 
+        text-align: center;
+        &-title {
+            font-weight: bold;
+        }
+        &-sstitle {
+            font-style: italic;
+            color: $color2;
+        }
+        &-input input {
+            width: 30px;
+            text-align: center;
+        }
+    }
+}
+.dec { // A REFAIRE avec la class dec__* si besoins
+    margin-left: 50px;
+    & input {
+        text-align: center;
+        width: 40px;
+    }
+}
