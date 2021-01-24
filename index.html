@@ -17,9 +17,9 @@
                     <p>Binaire <i>vers</i> Décimale</p>
                 </div>
                 <div class="chap__contenu">
-                    <form>
+                    <form id="chap__contenu__bin">
                         <table class="chap__contenu__bin">
-                            <tr class="chap__contenu__title">
+                            <tr class="chap__contenu__bin-title">
                                 <td>2<sup>7</sup></td>
                                 <td>2<sup>6</sup></td>
                                 <td>2<sup>5</sup></td>
@@ -30,7 +30,7 @@
                                 <td>2<sup>1</sup></td>
                                 <td>2<sup>0</sup></td>
                             </tr>
-                            <tr class="chap__contenu__sstitle">
+                            <tr class="chap__contenu__bin-sstitle">
                                 <td>128</td>
                                 <td>64</td>
                                 <td>32</td>
@@ -41,24 +41,36 @@
                                 <td>2</td>
                                 <td>1</td>
                             </tr>
-                            <tr class="chap__contenu__input">
-                                <td><input /></td>
-                                <td><input /></td>
-                                <td><input /></td>
-                                <td><input /></td>
+                            <tr class="chap__contenu__bin-input">
+                                <td><input type="text" minlenght=0 maxlength=1 id="2b7"/></td>
+                                <td><input type="text" minlenght=0 maxlength=1 id="2b6"/></td>
+                                <td><input type="text" minlenght=0 maxlength=1 id="2b5"/></td>
+                                <td><input type="text" minlenght=0 maxlength=1 id="2b4"/></td>
                                 <td></td>
-                                <td><input /></td>
-                                <td><input /></td>
-                                <td><input /></td>
-                                <td><input /></td>
+                                <td><input type="text" minlenght=0 maxlength=1 id="2b3"/></td>
+                                <td><input type="text" minlenght=0 maxlength=1 id="2b2"/></td>
+                                <td><input type="text" minlenght=0 maxlength=1 id="2b1"/></td>
+                                <td><input type="text" minlenght=0 maxlength=1 id="2b0"/></td>
                             </tr>
                         </table>
+                        <div class="chap__contenu__bin-output">En Décimale ca donne : <b>0</b></div>
                     </form>
                 </div>
             </div>
             <div class="chap">
                 <div class="chap__titre">
                     <p>Décimale <i>vers</i> Binaire</p>
+                </div>
+                <div class="chap__contenu">
+                    <form id="chap__contenu__dec" class="chap__contenu__dec">
+                        <input type="text" minlenght=0 maxlength=255 id="decimale"/>
+                        <div class="chap__contenu__dec-output">En Binaire ca donne : <b>0000 0000</b></div>
+                    </form>
+                </div>
+            </div>
+            <div class="chap">
+                <div class="chap__titre">
+                    <p>IP <i>et</i> Masque de sous Réseaux</p>
                 </div>
                 <div class="chap__contenu">
 
