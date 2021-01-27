@@ -14,9 +14,11 @@
         padding-left: 50px;
         &__output {
             margin-left: 50px;
-            & b{
+            & b {
                 color: $color3;
                 font-size: larger;
+                font-style: normal;
+                font-weight: normal;
                 border: 1px solid $color3;
                 background-color: $color1;
                 border-radius: 6px;

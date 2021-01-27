@@ -19,3 +19,16 @@
         width: 40px;
     }
 }
+.IetM {
+    &__desc{
+        text-align: right;
+    }
+    & input {
+        width:50px;
+        text-align: center;
+    }
+    & label {
+        font-style: italic;
+        color: $color2;
+    }
+}

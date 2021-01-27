@@ -12,6 +12,7 @@
             <p>Le réseaux et ses IP ...</p>
     	</div>
     	<div id="section">
+            <!-- CHAPITRE : BINAIRE vers DECIMALE (tableau) -->
             <div class="chap">
                 <div class="chap__titre">
                     <p>Binaire <i>vers</i> Décimale</p>
@@ -55,6 +56,7 @@
                     <div class="chap__contenu__output">En Décimale ca donne : <b>0</b></div>
                 </form>
             </div>
+            <!-- CHAPITRE : DECIMALE vers BINAIRE -->
             <div class="chap">
                 <div class="chap__titre">
                     <p>Décimale <i>vers</i> Binaire</p>
@@ -64,15 +66,62 @@
                     <div class="chap__contenu__output">En Binaire ca donne : <b>0000 0000</b></div>
                 </form>
             </div>
+            <!-- CHAPITRE : IP et MASQUE-->
             <div class="chap">
                 <div class="chap__titre">
                     <p>IP<i>et</i> Masque de sous réseaux</p>
                 </div>
-                <form class="chap__contenu" id="chap__contenu__*" >
-                    <input type="text" minlenght=0 maxlength=255 id="/"/>
-                    <div class="chap__contenu__output">Ca donne : <b>resultat</b></div>
+                <form class="chap__contenu" id="chap__contenu__IetM" >
+                    <table class="IetM">
+                        <tr>
+                            <td class="IetM__desc">Adresse IP : </td>
+                            <td><input type="text" minlenght=0 maxlength=255 id="IetM-IP1"/></td>
+                            <td>.</td>
+                            <td><input type="text" minlenght=0 maxlength=255 id="IetM-IP2"/></td>
+                            <td>.</td>
+                            <td><input type="text" minlenght=0 maxlength=255 id="IetM-IP3"/></td>
+                            <td>.</td>
+                            <td><input type="text" minlenght=0 maxlength=255 id="IetM-IP4"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label id="IetM-IP1-B">0000 0000</label></td>
+                            <td>.</td>
+                            <td><label id="IetM-IP2-B">0000 0000</label></td>
+                            <td>.</td>
+                            <td><label id="IetM-IP3-B">0000 0000</label></td>
+                            <td>.</td>
+                            <td><label id="IetM-IP4-B">0000 0000</label></td>
+                        </tr>
+                        <tr>
+                            <td class="IetM__desc">Masque : </td>
+                            <td><input type="text" minlenght=0 maxlength=255 id="IetM-M1"/></td>
+                            <td>.</td>
+                            <td><input type="text" minlenght=0 maxlength=255 id="IetM-M2"/></td>
+                            <td>.</td>
+                            <td><input type="text" minlenght=0 maxlength=255 id="IetM-M3"/></td>
+                            <td>.</td>
+                            <td><input type="text" minlenght=0 maxlength=255 id="IetM-M4"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label id="IetM-M1-B">0000 0000</label></td>
+                            <td>.</td>
+                            <td><label id="IetM-M2-B">0000 0000</label></td>
+                            <td>.</td>
+                            <td><label id="IetM-M3-B">0000 0000</label></td>
+                            <td>.</td>
+                            <td><label id="IetM-M4-B">0000 0000</label></td>
+                        </tr>
+                    </table>
+                    <div>
+                        <div class="chap__contenu__output">Il y a <b>X</b> IP disponible.</div>
+                        </br>
+                        <div class="chap__contenu__output" id="ipViaMasque">Elles vont jusqu'a <b>255.255.255.255</b>.</div>
+                    </div>
                 </form>
-            </div>
+            </div>         
+            <!-- CHAPITRE :
             <div class="chap">
                 <div class="chap__titre">
                     <p>Titre <i>et</i> Titre</p>
@@ -81,7 +130,7 @@
                     <input type="text" minlenght=0 maxlength=255 id="/"/>
                     <div class="chap__contenu__output">Ca donne : <b>resultat</b></div>
                 </form>
-            </div>
+            </div> -->
     	</div>
         <div id="footer">
             <p>Created by MAPIR</p>
