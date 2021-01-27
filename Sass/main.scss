@@ -1,9 +1,7 @@
 @import "Utils/variables";
-@import "Utils/mixins";
 
 @import "Base/base";
 
-@import "Components/chapitre";
-@import "Components/boutons";
+@import "Components/chapitre"; //base
 
-@import "Layout/chapitre";
+@import "Layout/chapitre"; //suptilité
